@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	Quiz "github.com/viniciusfranca019/gophercises/quiz-game"
+	"github.com/viniciusfranca019/gophercises/Packages/quiz-game"
 )
 
 func main() {
