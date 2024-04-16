@@ -10,7 +10,7 @@ import (
 
 func Start() {
 	fmt.Println("Starting the Quiz")
-	
+
 	csvFileName, timeLimit := defineFlags()
 	lines := handleOpenCsvFile(csvFileName)
 
@@ -25,7 +25,7 @@ func Start() {
 
 func defineFlags() (*string, *int64) {
 	csvFileName := flag.String("csv", "Packages/quiz-game/Questions/problems.csv", "give a path for a csv file on the format 'Question,Answer'")
-	timeLimit := flag.Int64("time", 30, "the time limit to anser the questions in seconds")
+	timeLimit := flag.Int64("time", 5, "the time limit to anser the questions in seconds")
 	flag.Parse()
 	return csvFileName, timeLimit
 }
