@@ -5,7 +5,7 @@ the objective is to do all exercises on gophercises to improve my go skills.
 so the created modules each one is a gophercise
 
 **look the list bellow of the gophercises current progress:**
-- [ ] Quiz Game
+- [x] Quiz Game
 - [ ] URL Shortener
 - [ ] Choose Your Own Adventure
 - [ ] HTML Link Parser
